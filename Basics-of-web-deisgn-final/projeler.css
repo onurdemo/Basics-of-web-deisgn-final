@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: slategray;
+    
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+    user-select: none;
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    user-select: none;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    user-select: none;
+}
+
+.navbar ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    user-select: none;
+}
+
+.navbar ul li a:hover{
+    background: cadetblue;
+    border-radius: 2px;
+}
+
+.tamamlananevler1{
+    width: 80%;
+    margin:0 auto;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+ 
+.tamamlananevler2{
+    width: 80%;
+    margin:0 auto;
+    padding: 0px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 0px 14px;
+    transition: 0.5s;
+    border-radius: 20px;
+    
+    
+
+}
+
+.box:hover{
+    transform: scale(1.2);
+    background: white;
+    z-index: 2;
+    
+    
+    
+
+}
+
+.box img{
+    border-radius: 20px;
+}
